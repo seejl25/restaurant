@@ -1,0 +1,64 @@
+body {
+    /* background: linear-gradient(orange, brown); */
+    background-color: orange;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.logo {
+    font-size: 2rem;
+    color: brown;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+button {
+    font-size: 1.5rem;
+    background-color: orange;
+    color: brown;
+}
+
+button:hover {
+    background-color: brown;
+    color: orange;
+}
+
+img {
+    z-index: -1;
+    opacity: 80%;
+}
+
+#content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.headline {
+    font-size: 4rem;
+    color: brown;
+}
+
+p {
+    font-size: 2rem;
+    color: brown;
+}

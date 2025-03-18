@@ -1,0 +1,34 @@
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 20px;
+}
+
+.menu-container {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 2px 2px 8px 3px black;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-image {
+    width: 70%;
+}
+
+.food-title {
+    margin-top: 0;
+    color: brown;
+}
+
+.food-description {
+    font-size: 1.2rem;
+    margin: 0 1rem 1rem 1rem;
+    color: black;
+}
