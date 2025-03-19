@@ -1,7 +1,7 @@
 import "./menu.css"
 import chickenBurger from "./chixburger.png"
 import cheeseBurger from "./cheeseburger.png"
-import shrimpBurger from "./shrimpburger.png"
+import vegBurger from "./vegburger.png"
 
 function menu() {
     const menuContainer1 = document.createElement("div");
@@ -48,13 +48,13 @@ function menu() {
     menuItems3.classList.add("menu-items");
     const image3 = document.createElement("img");
     image3.classList.add("food-image");
-    image3.src = shrimpBurger;
+    image3.src = vegBurger;
     const foodTitle3 = document.createElement("h1");
     foodTitle3.classList.add("food-title");
-    foodTitle3.textContent = "Classic Crispy Shrimp Burger"
+    foodTitle3.textContent = "Classic Veggie Delight"
     const foodDescription3 = document.createElement("p");
     foodDescription3.classList.add("food-description");
-    foodDescription3.textContent = "Juicy shrimp patty, golden-fried to perfection, topped with fresh slaw and zesty house sauce on a soft bun"
+    foodDescription3.textContent = "A hearty plant-based patty loaded with fresh veggies, topped with crisp lettuce, tomato, and creamy herb mayo"
 
     menuItems3.appendChild(image3);
     menuItems3.appendChild(foodTitle3);
