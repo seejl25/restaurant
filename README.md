@@ -9,3 +9,4 @@ Steps taken:
 - Main index.js will import the functions from the three other .js scripts
 - Imported functions will correspond to their relevant tabs: home, menu and contact
 - Did simple styling of webpage using CSS
+- Deployment through gh-pages branch 
