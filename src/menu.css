@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+.menu-container:hover {
+    animation: bounce 2000ms infinite alternate-reverse;
+}
+
 .food-image {
     width: 70%;
 }
@@ -31,4 +35,13 @@
     font-size: 1.2rem;
     margin: 0 1rem 1rem 1rem;
     color: black;
+}
+
+@keyframes bounce {
+    0%, 50%, 100% {
+        transform: translateY(-10px);
+    }
+    25%, 75% {
+        transform: translateY(0);
+    }
 }
